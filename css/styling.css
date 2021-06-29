@@ -186,9 +186,22 @@ a{
     background: rgba(233, 214, 153, 0.945);
     
 } */
-.who__iam .container-who{
+
+.who__iam{
     padding: 15rem 0 0 5rem;
+}
+
+.intro-text{
+    padding: 1em 0;
+}
+.intro-text i{
+    color: rgb(9, 89, 109);
+}
+
+.who__iam .container-who{
+    
     max-width: 30.3546rem;
+    line-height: 2.5em;
 
     
 }
@@ -202,7 +215,7 @@ a{
 }
 
 
-/* About section*/
+/* About section page*/
 
 .hero-about{
     background: rgba(233, 214, 153, 0.945);
@@ -258,6 +271,7 @@ a{
 .my__info .my__occupation{
     font-weight: 500;
     font-size: 1.4em;
+    color: rgb(13, 78, 109);
 }
 
 .my__info img{
@@ -516,6 +530,10 @@ hr.center-diamond:before {
 .productimg img{
     height: 100%;
     max-width: 100%;
+}
+
+.product-heading{
+    padding: 2em 0 ;
 }
 
 .product__slogan{
