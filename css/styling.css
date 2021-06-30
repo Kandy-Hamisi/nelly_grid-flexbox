@@ -122,10 +122,20 @@ a{
     color: #333;
     padding: 1rem 0;
 }
+.nav .menu-nav__link{
+    color: fuchsia;
+}
 
 @media (min-width: 701px) {
     .nav .menu-nav__link {
       color: #fff;
+    }
+    .nav .menu-nav__link:hover{
+        background: rgba(7, 167, 153, 0.671);
+        transition: 0.5s ease;
+        border: 1px solid rgba(7, 167, 153, 0.671);
+        padding: 10px 5px;
+        color: rgba(233, 214, 153, 0.945);
     }
 }
 
